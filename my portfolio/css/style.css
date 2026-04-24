@@ -14,7 +14,7 @@ body {
   font-size: 16px;
 }
 
-/* TEXTOS */
+/* textos */
 h1 {
   font-size: 26px;
   font-weight: 600;
@@ -33,7 +33,7 @@ p {
   color: #d6d6d6;
 }
 
-/* HEADER */
+/* topo (header) */
 .header {
   display: flex;
   align-items: center;
@@ -56,7 +56,7 @@ p {
   width: 38px;
 }
 
-/* BOXES */
+/* caixas principais do site */
 .primeira-parte,
 .segunda-parte,
 .projetos {
@@ -74,7 +74,7 @@ p {
   backdrop-filter: blur(8px);
 }
 
-/* Primeira parte: imagem à direita */
+/* seção inicial com texto + imagem */
 .info-imagem {
   display: flex;
   justify-content: space-between;
@@ -98,7 +98,7 @@ p {
   display: block;
 }
 
-/* HABILIDADES */
+/* bloco de habilidades */
 .habilidades {
   margin-top: 20px;
 
@@ -128,7 +128,7 @@ p {
   filter: grayscale(0%);
 }
 
-/* CONTATOS */
+/* área de contatos */
 .contatos {
   display: flex;
   flex-direction: column;
@@ -149,7 +149,7 @@ p {
   object-fit: contain;
 }
 
-/* LINKS */
+/* links */
 .item-contato a {
   color: #eaeaea;
   text-decoration: none;
@@ -160,7 +160,7 @@ p {
   color: #ffffff;
 }
 
-/* PROJETOS */
+/* cards dos projetos */
 .card-projeto {
   margin-top: 20px;
   padding: 16px;
@@ -171,7 +171,7 @@ p {
   background-color: rgba(15, 15, 18, 0.6);
 }
 
-/* BOTÕES */
+/* botões */
 .botoes {
   margin-top: 15px;
 }
