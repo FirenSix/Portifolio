@@ -191,3 +191,84 @@ p {
   background: #eaeaea;
   transform: translateY(-2px);
 }
+
+/* ajustes para mobile */
+@media (max-width: 480px) {
+
+  /* header menor */
+  .header {
+    height: auto;
+    padding: 8px;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .header h1 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .header img {
+    width: 28px;
+  }
+
+  /* caixas ocupando quase toda a tela */
+  .primeira-parte,
+  .segunda-parte,
+  .projetos {
+    width: 90%;
+    padding: 18px;
+  }
+
+  /* empilha texto + imagem */
+  .info-imagem {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .info-texto {
+    margin-right: 0;
+  }
+
+  .imagem {
+    margin-top: 15px;
+  }
+
+  .perfil {
+    width: 120px;
+  }
+
+  /* textos menores */
+  h1 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  /* ícones menores */
+  .icons img {
+    width: 40px;
+  }
+
+  /* contatos centralizados */
+  .contatos {
+    align-items: center;
+  }
+
+  .item-contato {
+    justify-content: center;
+  }
+
+  /* botão ajustado */
+  .botao {
+    padding: 9px 14px;
+    font-size: 14px;
+  }
+}
